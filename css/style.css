@@ -85,19 +85,18 @@ body {
   margin-right: 20px;
 }
 .cards .card-toggle {
-  z-index: 4;
-  position: relative;
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  display: block;
-  text-align: center;
-  line-height: 1.8;
-  font-size: 24px;
-  cursor: pointer;
-  border: 2px solid transparent;
-  -webkit-transition: .3s ease;
-  transition: .3s ease;
+z-index: 4;
+    position: relative;
+    display: block;
+    text-align: center;
+    line-height: 1.8;
+    font-size: 24px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+    padding: 0px 10px;
+    text-decoration: none;
 }
 .cards .card-toggle.active {
   color: white;
