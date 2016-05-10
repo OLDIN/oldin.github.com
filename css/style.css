@@ -32,6 +32,11 @@ body {
   cursor: pointer;
   text-shadow: 0 1px 0px rgba(255, 255, 255, 0.1);
 }
+
+.contact:hover {
+	border: 1px dashed rgba(167, 167, 167, 0.59);	
+}
+
 .contact-form {
   position: absolute;
   width: 100%;
