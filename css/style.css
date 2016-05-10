@@ -85,7 +85,7 @@ body {
   margin-right: 20px;
 }
 .cards .card-toggle {
-z-index: 4;
+    z-index: 4;
     position: relative;
     display: block;
     text-align: center;
@@ -98,7 +98,8 @@ z-index: 4;
     padding: 0px 10px;
     text-decoration: none;
 }
-.cards .card-toggle.active {
+
+.cards .card-toggle.active, .cards .card-toggle:hover {
   color: white;
   border-color: white;
 }
