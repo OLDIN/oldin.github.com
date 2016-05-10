@@ -269,9 +269,9 @@ form input[type="submit"] {
   transition: all 0.5s ease-out;
 }
 .mt {
-  margin-top: 100px;
-  text-align: center;
-  z-index: 2;
+    text-align: center;
+    z-index: 2;
+    float: right;
 }
 .btn {
   margin-right: 30px;
