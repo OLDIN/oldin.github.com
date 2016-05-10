@@ -103,7 +103,7 @@ body {
     border: 2px solid #337ab7;
 }
 
-.cards .card-toggle.no-click {
+.cards .card-toggle.no-click:hover {
     border-radius: 50%;
     border: 2px solid #337ab7;
 }
