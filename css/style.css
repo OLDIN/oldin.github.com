@@ -271,6 +271,7 @@ form input[type="submit"] {
 .mt {
   margin-top: 100px;
   text-align: center;
+  z-index: 2;
 }
 .btn {
   margin-right: 30px;
