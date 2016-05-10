@@ -1,4 +1,4 @@
-$(".card-toggle").on("click", function(){
+$(".card-toggle:not(.no-click)").on("click", function(){
 	
 	// Card toggle state 	
 	$(".card-toggle").removeClass("active");
