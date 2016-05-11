@@ -302,10 +302,10 @@ form input[type="submit"] {
   font-size: 20px;
   color: #212121;
   position: relative;
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
-  -o-transition: all 0.55s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.1s ease-out;
+  -moz-transition: all 0.1s ease-out;
+  -o-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
 }
 .r {
   position: absolute;
