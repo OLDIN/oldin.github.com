@@ -1,0 +1,100 @@
+span.success {
+    color: #18bc9c;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+section#contact:after {
+    color: #2c3e50;
+}
+
+.margin-top-50px {
+    margin-top: 50px;
+}
+
+@media (min-width: 767px){
+    section:before, section:after {
+        content: "";
+        position: absolute;
+        border-width: 2px;
+        border-style: dashed;
+        border-color: inherit;
+        width: 100%;
+        margin-top: -100px;
+        color: #18bc9c;
+    }
+    
+    section:before {
+        margin-top: -100px;
+    }
+
+    section:after {
+        margin-top: 96px;
+    }
+}
+
+.size-my-tehnology {
+    font-size: 23px !important;
+}
+
+.text-blinking {
+    -webkit-animation-name: Opacity;
+    -webkit-animation-duration: .6s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: cubic-bezier(0.45, 0.05, 0.55, 0.95);
+    -webkit-animation-direction: alternate;
+       -moz-animation-name: Opacity;
+       -moz-animation-duration: .6s;
+       -moz-animation-iteration-count: infinite;
+       -moz-animation-timing-function: cubic-bezier(0.45, 0.05, 0.55, 0.95);
+       -moz-animation-direction: alternate;
+        -ms-animation-name: Opacity;
+        -ms-animation-duration: .6s;
+        -ms-animation-iteration-count: infinite;
+        -ms-animation-timing-function: cubic-bezier(0.45, 0.05, 0.55, 0.95);
+        -ms-animation-direction: alternate; 
+            animation-name: Opacity;
+            animation-duration: .6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0.45, 0.05, 0.55, 0.95);
+            animation-direction: alternate; 
+    
+    
+    
+    
+}
+ 
+@-webkit-keyframes Opacity {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+@-moz-keyframes Opacity {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+@-ms-keyframes Opacity {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+@keyframes Opacity {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
