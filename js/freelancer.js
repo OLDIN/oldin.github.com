@@ -41,7 +41,7 @@ setInterval(function(){
     var title = document.title;
 
     if(/_/.test(title))
-        title = title.replace(/_/,"&nbsp;")
+        title = title.replace(/_/,"\r\n")
     else
         title = title.replace(/OLDIN/,"OLDIN_")
 
