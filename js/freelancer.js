@@ -41,7 +41,7 @@ setInterval(function(){
     var title = document.title;
 
     if(/_/.test(title))
-        title = title.replace(/_/," ")
+        title = title.replace(/_/,"&nbsp;")
     else
         title = title.replace(/OLDIN/,"OLDIN_")
 
@@ -49,4 +49,4 @@ setInterval(function(){
 
     console.log('title animation');
 
-}, 600);
+}, 1000);
