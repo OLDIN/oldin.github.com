@@ -35,3 +35,18 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+setInterval(function(){
+
+    var title = document.title;
+
+    if(/_/.test(title))
+        title = title.replace(/_/," ")
+    else
+        title = title.replace(/OLDIN/,"OLDIN_")
+
+    document.title = title;
+
+    console.log('title animation');
+
+}, 600);

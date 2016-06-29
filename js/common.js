@@ -3,12 +3,7 @@
     var app = {
         
         init : function(){
-            this.setUpListeners();
-            
-            setInterval(function(){
-                this.titleAnimation();
-            }, 600);
-            
+            this.setUpListeners();            
         },
         
         setUpListeners : function(){
@@ -77,21 +72,6 @@
         
         removeError : function(){
             $(this).tooltip('destroy').parents('form-froup').removeClass('has-error');
-        },
-        
-        titleAnimation : function(){
-            
-            var title = document.title;
-
-            if(/_/.test(title))
-                title = title.replace(/_/," ")
-            else
-                title = title.replace(/OLDIN/,"OLDIN_")
-            
-            document.title = title;
-            
-            console.log('title animation');
-            
         }
         
     }
