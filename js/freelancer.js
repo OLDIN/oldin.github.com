@@ -36,6 +36,7 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
+/*
 setInterval(function(){
 
     var title = document.title;
@@ -50,3 +51,4 @@ setInterval(function(){
     console.log('title animation');
 
 }, 1000);
+*/
