@@ -37,7 +37,8 @@ h6 {
 }
 
 hr.star-light,
-hr.star-primary {
+hr.star-primary,
+hr.star-grey {
     margin: 25px auto 30px;
     padding: 0;
     max-width: 250px;
@@ -47,7 +48,8 @@ hr.star-primary {
 }
 
 hr.star-light:after,
-hr.star-primary:after {
+hr.star-primary:after,
+hr.star-grey:after{
     content: "\f005";
     display: inline-block;
     position: relative;
@@ -66,13 +68,18 @@ hr.star-light:after {
     background-color: #18bc9c;
 }
 
-hr.star-primary {
+hr.star-primary, 
+hr.star-grey {
     border-color: #2c3e50;
 }
 
 hr.star-primary:after {
     color: #2c3e50;
     background-color: #fff;
+}
+hr.star-grey:after {
+    color: #2c3e50;
+    background-color: #f8f8f8;
 }
 
 .img-centered {
