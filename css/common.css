@@ -47,10 +47,11 @@ section#contact:after {
     background: #2c3e50;
     color: white;
 }
-/*
+
 @media (min-width: 767px){
-    section:before, 
-    section:after {
+    
+    section.dashed:before, 
+    section.dashed:after {
         content: "";
         position: absolute;
         border-width: 2px;
@@ -61,15 +62,16 @@ section#contact:after {
         color: #18bc9c;
     }
     
-    section:before {
+    section.dashed:before {
         margin-top: -100px;
     }
 
-    section:after {
+    section.dashed:after {
         margin-top: 96px;
     }
+    
 }
-*/
+
 .size-my-tehnology {
     font-size: 23px !important;
 }
