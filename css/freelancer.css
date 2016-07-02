@@ -108,7 +108,9 @@ header .intro-text .name {
     padding: 10px 35px;
     text-transform: uppercase;
     font: 700 4rem/60px Open Sans,Arial,sans-serif;
-    transition: background .5s;
+    cursor: pointer;
+    -webkit-transition: background .5s;
+            transition: background .5s;
 }
 
 header .intro-text .name:hover {
