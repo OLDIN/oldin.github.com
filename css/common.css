@@ -63,11 +63,11 @@ section#contact:after {
     }
     
     section.dashed:before {
-        margin-top: -100px;
+        margin-top: -104px;
     }
 
     section.dashed:after {
-        margin-top: 96px;
+        margin-top: 100px;
     }
     
 }
