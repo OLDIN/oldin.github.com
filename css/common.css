@@ -151,3 +151,6 @@ section#contact:after {
     background-image: url(/img/parallax2.jpg);
 }
 
+.intro-text {
+    margin-top: calc(50% - 138.5px);
+}
