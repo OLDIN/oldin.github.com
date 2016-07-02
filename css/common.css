@@ -5,7 +5,7 @@ span.success {
 .img-circle {
     border-radius: 50%;
 }
-/*
+
 section#contact {
     background: #f8f8f8;
 }
@@ -19,7 +19,7 @@ section#skill:after {
 section#contact:after {
     color: #2c3e50;
 }
-*/
+
 .margin-top-50px {
     margin-top: 50px;
 }
@@ -134,24 +134,7 @@ section#contact:after {
     }
 }
 
-.page-scroll a:before {
-    content:'';
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 0px;
-    height: 100%;
-    background-color: rgba(231, 231, 231, 0.4);
-    transition: all 2s ease;
-}
 
-.page-scroll.active a:before{
-    width: 100%;
-}
-
-.page-scroll.active a:hover:before {
-    
-}
 
 
 .parallax1, .parallax2 {
@@ -161,8 +144,9 @@ section#contact:after {
     background-position: center center;
 }
 .parallax1 {
-    background-image: url(https://pp.vk.me/c630922/v630922063/39363/Osi-QeHr8p4.jpg);
+    background-image: url(/img/first_slide.jpg);
 }
 .parallax2 {
     background-image: url(/img/parallax2.jpg);
 }
+
