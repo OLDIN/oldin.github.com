@@ -107,7 +107,7 @@ header .intro-text .name {
     color: #fff;
     padding: 10px 35px;
     text-transform: uppercase;
-    font: 700 3rem/60px Open Sans,Arial,sans-serif;
+    font: 700 4rem/60px Open Sans,Arial,sans-serif;
 }
 
 header .intro-text .skills {
@@ -125,7 +125,7 @@ header .intro-text .skills {
     }
 
     header .intro-text .name {
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     header .intro-text .skills {
