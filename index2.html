@@ -1,0 +1,83 @@
+<link href="https://fonts.googleapis.com/css?family=Work+Sans:400,300,200,500,700,600" rel="stylesheet" type="text/css">
+<header>
+    Parallax Fix Background effect
+</header>
+<div class="parallax1"></div>
+<main>
+    <section>
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ante. Mauris eleifend, quam a vulputate dictum, massa quam dapibus leo, eget vulputate orci purus ut lorem.
+        </div>
+    </section>
+    <section class="light-brown-bg">
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ante. Mauris eleifend, quam a vulputate dictum, massa quam dapibus leo, eget vulputate orci purus ut lorem.
+        </div>
+    </section>
+    <div class="parallax2"></div>
+    <section class="light-bg">
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ante. Mauris eleifend, quam a vulputate dictum, massa quam dapibus leo, eget vulputate orci purus ut lorem.
+        </div>
+    </section>
+    <section>
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ante. Mauris eleifend, quam a vulputate dictum, massa quam dapibus leo, eget vulputate orci purus ut lorem.
+        </div>
+    </section>
+</main>
+
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Work Sans', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    header {
+        position: relative;
+        height: 200px;
+        z-index: 2;
+        background-color: #e1bde4;
+        text-align: center;
+        padding-top: 100px;
+        font-size: 40px;
+        font-weight: 300;
+        color: #333;
+    }
+    .parallax1, .parallax2 {
+        width: 100%;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center center;
+    }
+    .parallax1 {
+        height: 400px;
+        background-image: url(https://pp.vk.me/c630922/v630922063/39363/Osi-QeHr8p4.jpg);
+    }
+    .parallax2 {
+        height: 400px;
+        background-image: url(https://pp.vk.me/c622116/v622116276/41114/biUddcPiFls.jpg);
+    }
+    
+    main section {
+        position: relative;
+        height: 300px;
+        font-size: 18px;
+        text-align: center;
+    }
+    main section div {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .light-brown-bg {
+        background-color: #f3e3d6;
+    }
+    .light-bg {
+        background-color: #f7f6f8;
+    }
+</style>
