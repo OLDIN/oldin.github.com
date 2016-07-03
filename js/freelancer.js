@@ -36,10 +36,3 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
-$(".parallax1").interactive_bg({
-    strength: 25,
-    scale: 1.05,
-    animationSpeed: "100ms",
-    contain: false,
-    wrapContent: true
-});
