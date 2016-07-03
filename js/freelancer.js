@@ -41,5 +41,5 @@ $(".parallax1").interactive_bg({
     scale: 1.05,
     animationSpeed: "100ms",
     contain: false,
-    wrapContent: false
+    wrapContent: true
 });
