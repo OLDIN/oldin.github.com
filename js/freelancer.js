@@ -35,3 +35,11 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+$(".bg").interactive_bg({
+    strength: 25,
+    scale: 1.05,
+    animationSpeed: "100ms",
+    contain: true,
+    wrapContent: false
+});
