@@ -25,7 +25,11 @@ hr.star-grey{border-color:#2c3e50;}
 hr.star-primary:after{color:#2c3e50;background-color:#fff;}
 hr.star-grey:after{color:#2c3e50;background-color:#f8f8f8;}
 .img-centered{margin:0 auto;}
-header{text-align:center;color:#fff;background:#18bc9c;}
+header{
+    text-align:center;
+    color:#fff;
+/*    background:#18bc9c;*/
+}
 header .container{padding-top:100px;padding-bottom:50px;}
 header img{display:block;margin:0 auto 20px;}
 header .intro-text .name{border:8px solid #fff;color:#fff;padding:10px 35px;text-transform:uppercase;font:700 4rem/60px Open Sans,Arial,sans-serif;cursor:pointer;-webkit-transition:background .5s;transition:background .5s;}
